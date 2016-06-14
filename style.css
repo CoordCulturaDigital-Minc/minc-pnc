@@ -1,0 +1,55 @@
+/*
+Theme Name: MinC-PNC
+Theme URI: 
+Description: Tema do MinC-PNC
+Author: Hacklab
+Author URI: http://hacklab.com.br/
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* =HTML5 Boilerplate
+-------------------------------------------------------------- */
+@import url(css/main.css);
+
+
+
+
+/* =General classes
+-------------------------------------------------------------- */
+.clearfix:after, .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix, .container {display:block;}
+.clear {clear:both;}
+.bottom { margin-bottom:0 !important; padding-bottom:0; }
+.top { margin-top:0 !important; padding-top:0 !important; }
+.aligncenter { display: block; margin-right: auto; margin-left: auto; clear: both; }
+.alignleft { float: left; }
+.alignright { float: right; }
+.textcenter { text-align: center; }
+.textleft { text-align: left; }
+.textright { text-align: right; }
+.wp-caption{ color: #898989; font-size: 12px; text-align: center; }
+
+/* =lightbox das acoes relacionadas
+-------------------------------------------------------------- */
+.hl-darkbox { background:  black; }
+.hl-lightbox { cursor: pointer; position: relative; }
+.hl-lightbox-dialog { background: white; border-bottom: none; border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; color: #666; display: none; max-height: 450px; overflow: auto; padding: 22px; width: 700px; }
+.hl-lightbox-close { width: 25px; height: 25px; background: transparent url(img/close.png) no-repeat; float: right; }
+
+/* =Ações relacionadas
+-------------------------------------------------------------- */
+ul.acoes { list-style-type: none; padding: 5px; }
+ul.acoes li { list-style-type: none; padding: 11px 10px 10px; border-bottom: 1px dotted #ccc; cursor: pointer; }
+ul.acoes li:hover { background: #f1f1f1; } 
+.acao-numero { float: left; width: 60px; margin-right: 10px; font-size: 18px; font-weight: bold; text-align: right; color: #063; }
+.acao-descricao { float: left; width: 450px; border-left: 1px solid #ccc; padding-left: 9px; }
+ul.acoes li.selected { background: #e6e6e6; }
+#select-acoes { width: 578px; height: 400px; margin-bottom: 22px; padding: 6px; overflow-y: scroll; border: none; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; box-shadow: inset 2px 2px 7px #e6e6e6; -moz-box-shadow: inset 2px 2px 7px #e6e6e6; -webkit-box-shadow: inset 2px 2px 7px #e6e6e6; font: 12px/22px Helvetica, Arial, sans-serif; background: #fff; }
+#select-acoes input { width: auto; }
+#sugerir-meta span { font-size: 12px; color: #999; }
+
+/* =Tags
+-------------------------------------------------------------- */
+a.current-term { color: red; font-weight: bold; }
